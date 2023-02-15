@@ -1,0 +1,233 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    background:#111827;
+	line-height: 1;
+    font-size: 14px;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+img {
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.header { 
+    background: #111827;
+    border-bottom:1px solid rgba(255, 255, 255, 0.062);
+    
+}
+
+.header .container {
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.header .search { 
+    display: flex;
+    display: block;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+    margin-left: auto;
+    
+}
+.header .search:hover {
+    border-bottom:2px solid #fff;
+}
+
+.header .search input {
+    height: 48px;
+    width: 205px;
+    background: #111827;
+    padding: 0 10px;
+    color:rgba(255, 255, 255, .6) ;
+}
+.header .search input::placeholder {
+    color:rgba(255, 255, 255, .6) ;
+}
+.header .search button {
+    width:42px ;
+    height: 47px;
+    background-color: #111827;
+    color: #fff;
+}
+.header .search button:hover {
+    background-color:#303a4e;
+}
+
+.logo {
+    margin-right:2px;
+}
+
+.container span  {
+    color: #fff;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 32px;
+    height: 32px;
+}
+
+.menu ul {
+    margin-left: 10px;
+    display: flex;
+}
+.menu ul li.browse a {
+    line-height: 48px; 
+    display: block;  
+   
+}
+.menu ul li {
+    width: 84px;
+    display: flex; 
+    justify-content: center;
+}
+
+.menu ul li:hover {
+    background-color:#303a4e;
+}
+
+
+.menu ul li.browse a i{
+   margin-left: 7px;
+   height:16px;
+    font-size: 10px;
+    align-items: center;
+}
+
+.header .login-buttons ul {
+    display: flex;
+}
+
+
+.header .login-buttons ul li a {
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 15px;
+}
+
+.header .login-buttons .egghead-btn button {
+    background: #2563EB;
+    line-height: 28px;
+    width: 130px;
+    color: #fff;  
+    border-radius: 5px;
+}
+
+.header .login-buttons .egghead-btn button:hover {
+    background: #1d4eb8;
+}
+
+.header .login-buttons .sign-button:hover {
+    background-color:#303a4e;
+}
+
+
+    /* BANNER SECTİON */
+.banner {
+    min-height: 50vh;
+    background: url(img/hero-bg-dark.webp) ;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size:cover;
+}
+
+
+.banner .container {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 150px 0 ;
+    color: #fff;
+}
+.banner .container .banner-box {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 0 32px;
+}
+
+.banner .container .banner-box h1 {
+    display: block;
+    font-size: 48px;
+    font-weight: 700;
+    max-width: 23ch;
+    text-align: center;
+}
+
+.banner .container .banner-box h2 {
+    font-size: 20px;
+    padding: 12px 0 10px;
+    color: #E6B024;
+    text-align: center;
+} 
+.banner .container .language-box {
+    margin-top: 50px;
+}
+
+.banner .container .language-box ul {
+    display: flex;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .container .language-box ul li {
+    margin: 4px 16px;
+    align-items: center;
+}
+
+/* YOUR TİME */
+
